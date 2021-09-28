@@ -23,8 +23,9 @@ Static websites are easy to deploy, and there are many options available on the 
 - [Github pages](https://pages.github.com/) It's completely free, but only supports static.
 - [Google firebase](https://firebase.google.cn/) Powerful, with more cdn nodes.
 - [cloudflare ](https://www.cloudflare.com/) Global cdn is powerful, but only supports static.
+- [21YunBox](https://www.21yunbox.com/) China's equivalent of Netlify and Vercel.
 
-For chinese users, firebase is not available, so the best solution is netlify, a lot of free, and has many convenient features, such as PR preview. Now the PR previews of Ant Design and Pro are all used by netlify, but netlify has no nodes in China, and the access speed is delayed by more than 3000ms. If your website is more than 2m, the access speed will be slow.
+For chinese users, firebase is not available, so the best solution is netlify, a lot of free, and has many convenient features, such as PR preview. Now the PR previews of Ant Design and Pro are all used by netlify, but netlify has no nodes in China, and the access speed is delayed by more than 3000ms. If your website is more than 2m, the access speed will be slow. 
 
 Github Pages is Github's official solution, but only supports pure static pages and does not support any dynamic capabilities. And the access speed is not ideal. Cloudflare can solve this problem at this time. Cloudflare's cdn provides a global deployment node that guarantees a global access speed of less than 1000ms.
 
